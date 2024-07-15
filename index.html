@@ -40,13 +40,16 @@
   </head>
 
   <body class="index-page">
-    <header id="header" class="header d-flex align-items-center fixed-top">
+    <header
+      id="header"
+      class="header d-flex align-items-center fixed-top"
+    >
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
       >
         <a href="index.html" class="logo d-flex align-items-center">
-          <h1 class="sitename text-success">
-            <img src="assets/img/logosos.svg" alt="ifoodsos" class="" />iFoodSOS
+          <h1 class="sitename text-success align-items-center">
+            <img src="assets/img/logosos.svg" alt="ifoodsos" />iFoodSOS
           </h1>
         </a>
 
@@ -57,7 +60,8 @@
             </li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
-            
+            <li><a href="team.html">Team</a></li>
+            <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -68,8 +72,11 @@
     <main class="main">
       <!-- Hero Section -->
       <section id="hero" class="hero section">
-        <img src="assets/img/home.jpg" alt="" data-aos="fade-in" width="400px" height="400px" />
-
+        <img
+          src="assets/img/home.jpg"
+          alt=""
+          data-aos="fade-in"
+        />
         <div class="container">
           <div class="row">
             <div class="col-xl-4">
@@ -84,7 +91,7 @@
                 </p>
               </blockquote>
               <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-                <a href="#about" class="btn-get-started">Get Started</a>
+                <!-- <a href="#about" class="btn-get-started">Get Started</a> -->
                 <a
                   href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                   class="glightbox btn-watch-video d-flex align-items-center"
@@ -92,7 +99,6 @@
                 >
               </div>
               <br />
-              
             </div>
           </div>
         </div>
@@ -111,67 +117,73 @@
         <!-- End Section Title -->
 
         <div class="container">
-          <div class="row gy-4">
+          <div class="d-flex gap-2 gy-4 text-center">
             <div
-              class="col-lg-4 col-md-6 service-item d-flex"
+              class="col-lg-4 col-md-6 card service-item border border-success p-4"
               data-aos="fade-up"
               data-aos-delay="100"
             >
               <div class="icon flex-shrink-0">
                 <i class="bi bi-pencil-square" style="color: #15a04a"></i>
               </div>
-              <div>
-                <h4 class="title">Students and Researchers</h4>
-                <p class="description">
-                  Looking for raw datasets for their projects? Offer them a way
-                  to showcase their projects and integrate them into your
-                  project management system and make them available for
-                  analysis.
-                </p>                
+              <div class="card-body">
+                <h4 class="card-title">Students and Researchers</h4>
+                <p class="card-text">
+                  We offer raw datasets for their projects and they can
+                  integrate them into your project management system and make
+                  them available for analysis.
+                </p>
               </div>
             </div>
             <!-- End Service Item -->
 
             <div
-              class="col-lg-4 col-md-6 service-item d-flex"
+              class="col-lg-4 col-md-6 card service-item border border-success p-4"
               data-aos="fade-up"
               data-aos-delay="200"
             >
               <div class="icon flex-shrink-0">
                 <i class="bi bi-buildings-fill" style="color: #15a04a"></i>
               </div>
-              <div>
-                <h4 class="title">Organizations</h4>
-                <p class="description">
+              <div class="card-body">
+                <h4 class="card-title">Organizations</h4>
+                <p class="card-text">
                   Looking for visualizations and insights based on data? Give
                   them a way to create and embed visualizations directly from
                   the platform.
-                </p>                
+                </p>
               </div>
             </div>
             <!-- End Service Item -->
 
             <div
-              class="col-lg-4 col-md-6 service-item d-flex"
+              class="col-lg-4 col-md-6 card service-item border border-success p-4"
               data-aos="fade-up"
               data-aos-delay="300"
             >
               <div class="icon flex-shrink-0">
                 <i class="bi bi-code" style="color: #15a04a"></i>
               </div>
-              <div>
-                <h4 class="title">Developers</h4>
-                <p class="description">
+              <div class="card-body">
+                <h4 class="card-title">Developers</h4>
+                <p class="card-text">
                   Provide APIs and notebook environments for data-driven
-                  applications.Give them an environment to host and run
-                  applications, not just an API.
-                </p>                
+                  applications.Environment to host and run applications, not
+                  just an API.
+                </p>
               </div>
             </div>
             <!-- End Service Item -->
           </div>
         </div>
       </section>
+      <style>
+        .card:hover {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          transform: scale(1.05);
+          transition: transform 0.2s;
+        }
+    </style>
       <!-- /Services Section -->
 
       <!-- Why Us Section -->
@@ -183,66 +195,49 @@
         <!-- End Section Title -->
 
         <div class="container">
-          <div class="row g-0">
+          <div class="row g-5">
             <div
-              class="col-xl-5 img-bg"
+              class="col-xl-5 img-bg width-400"
               data-aos="fade-up"
               data-aos-delay="100"
             >
               <img src="assets/img/why-us.jpg" alt="" />
             </div>
-
-            <div
-              class="col-xl-7 slides position-relative"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-            
-                <div>
-                  <div>
-                    <div class="item">
-                      <h3 class="mb-3">Accuracy and Trustworthy</h3>                      
-                      <p>
-                        Our platform uses the Blockchain technology to ensure
-                        data immutability and authenticity, providing peace of
-                        mind to all actors involved in the food system. The
-                        iFoodSOS API assures its users that the data they use is
-                        accurate and trustworthy used and derived from data use
-                        cases that in their capture have promoted innovation at
-                        the various levels in the contributing organizations and
-                        inspired with good open data principles from Data use
-                        Working Group levels.
-                      </p>
-                    </div>
-                  </div>
-                  <!-- End slide item -->
-
-                  <div>
-                    <div class="item">
-                      <h3 class="mb-3">Food Security</h3>                      
-                      <p>
-                        In aligning with UN Sustainable Development Goal (UNDG)
-                        2, to end hunger by promoting food security, and UNDG 1,
-                        to end to poverty in all its manifestations, we are
-                        committed to promoting the use of data to improve food
-                        security, create a sustainable food system, in the
-                        South-South. This agenda also helps realize the agenda
-                        of NDSDG 3 of ensuring healthy lives and promoting
-                        well-being for all people at all ages. Our platform
-                        therefore provides opportunities for growth and
-                        development for all actors involved, helping to
-                        sustainably create a positive impact for generations to
-                        come.
-                      </p>
-                    </div>
-                  </div>
-                  <!-- End slide item -->
+            <div class="col-xl-7" data-aos="fade-up" data-aos-delay="200">
+              <div>
+                <div class="item">
+                  <h3 class="mb-2">Accuracy and Trustworthy</h3>
+                  <p>
+                    Our platform uses the Blockchain technology to ensure data
+                    immutability and authenticity, providing peace of mind to
+                    all actors involved in the food system. The iFoodSOS API
+                    assures its users that the data they use is accurate and
+                    trustworthy used and derived from data use cases that in
+                    their capture have promoted innovation at the various levels
+                    in the contributing organizations and inspired with good
+                    open data principles from Data use Working Group levels.
+                  </p>
                 </div>
-                <div class="swiper-pagination"></div>
               </div>
-
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+              <!-- End slide item -->
+              <div>
+                <div class="item pt-4">
+                  <h3 class="mb-2">Food Security</h3>
+                  <p>
+                    In aligning with UN Sustainable Development Goal (UNDG) 2,
+                    to end hunger by promoting food security, and UNDG 1, to end
+                    to poverty in all its manifestations, we are committed to
+                    promoting the use of data to improve food security, create a
+                    sustainable food system, in the South-South. This agenda
+                    also helps realize the agenda of NDSDG 3 of ensuring healthy
+                    lives and promoting well-being for all people at all ages.
+                    Our platform therefore provides opportunities for growth and
+                    development for all actors involved, helping to sustainably
+                    create a positive impact for generations to come.
+                  </p>
+                </div>
+                <!-- End slide item -->
+              </div>
             </div>
           </div>
         </div>
@@ -276,11 +271,13 @@
                   <span class="post-date">Tue, December 12</span>
                   <span class="post-author"> / Julia Parker</span>
                 </div>
-                <h3 class="post-title">
-                  Farmer Profiling
-                </h3>
+                <h3 class="post-title">Farmer Profiling</h3>
                 <p>
-                  Farmer profiling gives a detailed picture of each farmer's operation and forms a very important constituent of Farm management software. Smallholder farmers need trade and financial services to increase their production and their incomes.
+                  Farmer profiling gives a detailed picture of each farmer's
+                  operation and forms a very important constituent of Farm
+                  management software. Smallholder farmers need trade and
+                  financial services to increase their production and their
+                  incomes.
                 </p>
                 <a href="blog-details.html" class="readmore stretched-link"></a>
               </div>
@@ -307,7 +304,10 @@
                   Early Warning Nutrition & Food Security
                 </h3>
                 <p>
-                  Early Warning Systems (EWS) alert to the presence of food crises and related drivers, informing decision makers and saving lives. The Early Warning Hub brings together information from across Early Warning Systems in one place.
+                  Early Warning Systems (EWS) alert to the presence of food
+                  crises and related drivers, informing decision makers and
+                  saving lives. The Early Warning Hub brings together
+                  information from across Early Warning Systems in one place.
                 </p>
                 <a href="blog-details.html" class="readmore stretched-link"></a>
               </div>
@@ -332,11 +332,18 @@
                 </div>
                 <h3 class="post-title">Soil</h3>
                 <p>
-                  Soil is a natural body comprised of solids (minerals and organic matter), liquid, and gases that occurs on the land surface, occupies space, and is characterized by one or both of the following: horizons, or layers, that are distinguishable from the initial material as a result of additions, losses, transfers, and transformations of energy and matter or the ability to support rooted plants in a natural environment.
+                  Soil is a natural body comprised of solids (minerals and
+                  organic matter), liquid, and gases that occurs on the land
+                  surface, occupies space, and is characterized by one or both
+                  of the following: horizons, or layers, that are
+                  distinguishable from the initial material as a result of
+                  additions, losses, transfers, and transformations of energy
+                  and matter or the ability to support rooted plants in a
+                  natural environment.
                 </p>
                 <a href="blog-details.html" class="readmore stretched-link"></a>
               </div>
-            </div>          
+            </div>
             <div
               class="col-xl-3 col-md-6"
               data-aos="fade-up"
@@ -356,12 +363,16 @@
                 </div>
                 <h3 class="post-title">Markets</h3>
                 <p>
-                  Reliable market access boosts productivity, increases incomes and strengthens food security. It can contribute to reducing poverty and hunger for producing families and their communities, if appropriate measures are taken to reduce market risks and unequal market power.
+                  Reliable market access boosts productivity, increases incomes
+                  and strengthens food security. It can contribute to reducing
+                  poverty and hunger for producing families and their
+                  communities, if appropriate measures are taken to reduce
+                  market risks and unequal market power.
                 </p>
                 <a href="blog-details.html" class="readmore stretched-link">
                 </a>
               </div>
-            </div>          
+            </div>
           </div>
         </div>
       </section>
@@ -392,7 +403,6 @@
         </div>
       </section>
       <!-- /Call To Action Section -->
-
     </main>
 
     <footer id="footer" class="footer">
@@ -401,10 +411,13 @@
           <div class="row gy-4">
             <div class="col-lg-5 col-md-12 footer-about">
               <a href="index.html" class="logo d-flex align-items-center">
-                <span class="sitename text-success"><img src="assets/img/logosos.svg" alt="">iFoodSOS</span>
+                <span class="sitename text-success"
+                  ><img src="assets/img/logosos.svg" alt="" />iFoodSOS</span
+                >
               </a>
               <p>
-                Helping governments maximize operations management with digitization
+                Helping governments maximize operations management with
+                digitization
               </p>
               <div class="social-links d-flex mt-4">
                 <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -440,7 +453,10 @@
               class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
             >
               <h4>Contact Us</h4>
-              <p>Basement Floor, Food Science, Nutrition and Technology, University of Nairobi</p>              
+              <p>
+                Basement Floor, Food Science, Nutrition and Technology,
+                University of Nairobi
+              </p>
               <p>Kenya</p>
               <p class="mt-4">
                 <strong>Phone:</strong> <span>+254-20-2323328</span>
@@ -479,7 +495,6 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
   </body>

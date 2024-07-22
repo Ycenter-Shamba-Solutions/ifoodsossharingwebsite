@@ -976,6 +976,66 @@ section,
 
 
 
+/*Datasets Section */
+#recent-posts .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#recent-posts .post-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#recent-posts .post-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#recent-posts .post-title {
+  margin-top: 20px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+#recent-posts p {
+  flex-grow: 1;
+}
+
+#recent-posts .readmore {
+  margin-top: 20px;
+  font-weight: 700;
+  color: #5cb85c;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+  #recent-posts .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  #recent-posts .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #recent-posts .col-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
 
 
 /*--------------------------------------------------------------

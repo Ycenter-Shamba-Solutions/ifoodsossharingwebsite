@@ -119,7 +119,6 @@ h6 {
 .scrolled .header {
   --background-color: rgb(23, 40, 58);
 }
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -155,25 +154,25 @@ h6 {
     transition: 0.3s;
   }
   button {
-    background-color: #0095ff; 
+    background-color: #0095ff;
     color: white;
-    padding: 10px 20px; 
-    border: none; 
+    padding: 10px 20px;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px; 
-    transition: background-color 0.3s ease; 
+    font-size: 16px;
+    transition: background-color 0.3s ease;
   }
-  
+
   /* Button hover effect */
   button:hover {
     background-color: #000000;
   }
-  
+
   /* Button focus effect */
   button:focus {
     outline: none;
-    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); 
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
   }
   .navmenu ul li a button {
     display: inline-block;
@@ -407,19 +406,19 @@ h6 {
 
 .footer-top {
   padding: 60px 0;
-  background-color: #f6fbfe; 
-  color: #333; 
+  background-color: #f6fbfe;
+  color: #333;
 }
 
 .footer-top .container {
-  max-width: 1140px; 
-  margin: 0 auto; 
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .footer-top .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .footer-top .footer-about {
@@ -431,28 +430,28 @@ h6 {
 .footer-top .footer-about .logo {
   display: flex;
   align-items: center;
-  text-decoration: none; 
+  text-decoration: none;
   color: #333;
   font-size: 24px;
-  font-weight: bold; 
-  margin-bottom: 15px; 
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .footer-top .footer-about p {
   margin: 10px 0;
-  color: #666; 
+  color: #666;
 }
 
 .footer-top .social-links {
   display: flex;
-  gap: 15px; 
+  gap: 15px;
 }
 
 .footer-top .social-links a {
-  color: #1DA1F2; 
+  color: #1da1f2;
   background: #e9f5fc;
-  border-radius: 50%; 
-  padding: 10px; 
+  border-radius: 50%;
+  padding: 10px;
   font-size: 20px;
   transition: color 0.3s ease, background 0.3s ease;
 }
@@ -469,13 +468,13 @@ h6 {
 }
 
 .footer-top .footer-contact h4 {
-  font-size: 18px; 
+  font-size: 18px;
   margin-bottom: 15px;
-  color: #333; 
+  color: #333;
 }
 
 .footer-top .footer-contact p {
-  margin: 5px 0; 
+  margin: 5px 0;
   color: #666;
 }
 
@@ -490,12 +489,12 @@ h6 {
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .footer-top .row {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer-top .footer-contact {
-    text-align: center; 
+    text-align: center;
     margin-top: 30px;
   }
 }
@@ -798,7 +797,7 @@ section,
 --------------------------------------------------------------*/
 .hero {
   --default-color: #ffffff;
-  --background-color: #1b2f45; 
+  --background-color: #1b2f45;
   --heading-color: #ffffff;
   width: 100%;
   min-height: 100vh;
@@ -877,11 +876,11 @@ section,
 .hero .btn-watch-video {
   display: flex;
   align-items: center;
-  background-color:  #0095ff;
-  color: #000000; 
+  background-color: #0095ff;
+  color: #000000;
   padding: 10px 20px;
   border: none !important;
-  border-radius: 5px; 
+  border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease;
   font-size: 16px;
@@ -906,8 +905,8 @@ section,
   color: var(--default-color);
 }
 .btn-watch-video:focus {
-  outline: none; 
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25); 
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 640px) {
@@ -926,16 +925,16 @@ section,
 # Who Are Our Users
 --------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 .services .section-title h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #333;
 }
 
 .services .section-title p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #555;
 }
@@ -957,24 +956,21 @@ section,
 }
 
 .services .card .card-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   color: #333;
 }
 
 .services .card .card-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #555;
 }
-
 
 /*--------------------------------------------------------------
 # Why Us Section
 --------------------------------------------------------------*/
 /* Slider container styles */
-
-
 
 /*Datasets Section */
 #recent-posts .row {
@@ -1036,7 +1032,6 @@ section,
     max-width: 25%;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Services Section
@@ -1856,7 +1851,7 @@ section,
 /* Contact section styles */
 #contact {
   padding: 60px 0;
-  background-color: #f8f9fa; 
+  background-color: #f8f9fa;
 }
 
 #contact .container {
@@ -1864,36 +1859,36 @@ section,
 }
 
 .contact .info-item {
-  background: #fff; 
-  padding: 20px; 
+  background: #fff;
+  padding: 20px;
   border-radius: 8px;
-  box-shadow: 0px 0 30pxpx rgba(1, 41, 112, 0.1); 
-  margin-bottom: 20px; 
+  box-shadow: 0px 0 30pxpx rgba(1, 41, 112, 0.1);
+  margin-bottom: 20px;
   /* transition: transform 0.3s ease; */
   /* flex: 1 1 auto; */
 }
 
 .contact .info-item:hover {
-  background: #f8f9fa; 
+  background: #f8f9fa;
 }
 
 .contact .info-item i {
-  font-size: 32px; 
-  color: #0056b3; 
-  margin-right: 20px; 
+  font-size: 32px;
+  color: #0056b3;
+  margin-right: 20px;
 }
 
 .contact .info-item h3 {
-  font-size: 20px; 
-  margin-bottom: 5px; 
+  font-size: 20px;
+  margin-bottom: 5px;
   font-weight: 700;
   color: #111;
 }
 
 .contact .info-item p {
-  margin-bottom: 0; 
+  margin-bottom: 0;
   font-size: 15px;
-  color: #555; 
+  color: #555;
 }
 .contact .img-fluid {
   max-width: 100%;
@@ -1902,8 +1897,8 @@ section,
 }
 
 #contact .row img {
-  max-width: 100%; 
-  border-radius: 8px; 
+  max-width: 100%;
+  border-radius: 8px;
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 #contact .row {
@@ -1911,7 +1906,8 @@ section,
   flex-wrap: wrap;
 }
 
-#contact .col-lg-5, #contact .col-lg-7 {
+#contact .col-lg-5,
+#contact .col-lg-7 {
   flex: 1 1 100%;
   display: flex;
   flex-direction: column;
@@ -2086,7 +2082,7 @@ section,
     transform: rotate(0deg);
   } */
 
-  /* 100% {
+/* 100% {
     transform: rotate(360deg);
   }
 } */
